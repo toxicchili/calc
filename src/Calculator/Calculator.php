@@ -20,7 +20,7 @@ class Calculator
         $this->input = $input;
     }
 
-    public function calculate($a, $b)
+    public function calculate(float $a, float $b): array
     {
         return $this->input->calculate($a, $b);
     }
